@@ -1,0 +1,20 @@
+.creator-card {
+    padding: 1.5rem;
+}
+
+/* .creator-card p {
+  background-color: rgb(232, 231, 231);
+  padding: 1rem;
+} */
+
+.creator-logo {
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.creator-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+

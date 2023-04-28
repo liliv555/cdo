@@ -1,0 +1,85 @@
+.landing-container {
+    padding-top: 5rem;
+}
+
+.landing {
+  align-items: center;
+}
+
+
+.landing-content {
+    background-color: #f7f6f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #202020;
+} p {
+    text-align: justify;
+}
+
+.landing-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    padding: 10px 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+  color: #202020;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #202020;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 1150px) {
+  .landing-img {
+    height: 360px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .landing-img {
+    height: 450px;
+  }
+    .landing-container {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+  .landing-img {
+    height: 280px;
+  }
+    .landing-container {
+        padding-top: 0;
+    }
+}

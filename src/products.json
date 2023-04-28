@@ -1,0 +1,22 @@
+[
+    {
+        "id": "productOneId",
+        "paymentUrl": "https://buy.stripe.com/test_fZe4j9aeP3ae6FG3cd",
+        "title": "Analítica Avanzada",
+        "price": 250.00,
+        "currency": "EUR",
+        "description": "Este módulo es una oportunidad única para aquellos que buscan convertirse en verdaderos motores del cambio en sus empresas, guiándolas hacia un futuro más data driven. Hoy en día, la cantidad de datos disponibles para las empresas es enorme. Sin embargo, la mayoría de las empresas no saben cómo utilizar estos datos para tomar decisiones efectivas. Es aquí donde entra la analítica avanzada. La analítica avanzada es un conjunto de técnicas que permiten analizar grandes cantidades de datos para obtener información valiosa y predecir resultados futuros. En este módulo de analítica avanzada, aprenderás a utilizar herramientas y técnicas avanzadas de análisis de datos para identificar patrones, tendencias y correlaciones. Esto te ayudará a tomar decisiones empresariales más informadas y precisas. Por ejemplo, podrás identificar las tendencias de ventas, los hábitos de compra de tus clientes y las áreas donde tu empresa puede reducir costos. Además, podrás predecir cómo se comportará el mercado y cómo afectará a tu empresa en el futuro.",
+        "image": "/images/analiticaAvanzada.jpg",
+        "content": ["Transformando una compañía con datos", "La Inteligencia Artificial", "Análisis de Datos", "Modelos predictivos y prescriptivos", "Tratamiento de imágenes y voz", "Sesión en streaming con el coordinador de módulo"]
+    },
+    {
+        "id": "productTwoId",
+        "paymentUrl": "https://buy.stripe.com/test_14k3f55YzeSWc00aEE",
+        "title": "Analítica Avanzada + Acceso al catálogo",
+        "price": 286.00,
+        "currency": "EUR",
+        "description": "Además del poder disfrutar del Modulo 1: Analítica Avanzada, podrás tener acceso al catálogo general de Videocation, en el que podrás encontrar más de 170 cursos de formación de todas las áreas relativas a la empresa y al desarrollo personal. Con esto podrás conseguir una formación transversal relevante para tu puesto de trabajo, complementando tu formación técnica con formación en competencias transversales y conocimiento de todas las áreas del negocio.",
+        "image": "/images/analiticaAvanzadaPlusAcceso.jpg",
+        "content": ["Transformando una compañía con datos", "La Inteligencia Artificial", "Análisis de Datos", "Modelos predictivos y prescriptivos", "Tratamiento de imágenes y voz", "Sesión en streaming con el coordinador de módulo"]
+    }
+]

@@ -1,0 +1,56 @@
+
+.carousel > .control-next.control-arrow:before {
+    border-left: 8px solid black !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black !important;
+}
+
+.objectives button {
+    background-color: black;
+}
+
+.icon {
+    color: #9BC758;
+}
+
+.carousel-container {
+    width: 65%;
+    margin: auto;
+}
+
+.carousel-card > .row {
+    align-items: center;
+}
+
+.carousel-card {
+    padding: 2rem;
+    padding: 0rem 3.5rem 0rem 1.5rem;
+    min-height: 382px;
+    align-items: center;
+}
+
+.carousel-title {
+    margin-bottom: 3rem
+}
+
+.obj-img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.objective-icon {
+    font-size: 9rem;
+}
+
+.control-dots {
+    margin-top: 2rem !important;
+}
+
+@media screen and (max-width: 760px) {
+    .carousel-card {
+        padding: 0rem 2.5rem 0rem 2rem;
+        min-height: 660px;
+    }
+}

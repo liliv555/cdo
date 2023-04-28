@@ -1,0 +1,47 @@
+.experts-container {
+    width: auto;
+    margin: auto;
+}
+
+.experts-carousel {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 247px;
+}
+
+.expert-icon {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 140px !important;
+    margin-right: 2rem;
+}
+
+.carousel .slide {
+    text-align: left;
+}
+
+.expert-linkedin {
+    text-decoration: none;
+    color: rgba(32, 32, 32, 0.7);
+}
+
+.expert-linkedin:hover {
+    color: rgba(32, 32, 32, 1);
+}
+
+@media screen and (max-width: 772px) {
+    .experts-carousel {
+        flex-direction: column;
+        height: 280px;
+    }
+
+    .expert-info {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .expert-info > p {
+        text-align: center;
+    }
+}

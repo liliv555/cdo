@@ -1,0 +1,32 @@
+.info-wrapper {
+    width: 700px;
+    margin: auto;
+}
+
+.info-video {
+    overflow: hidden;
+    padding-bottom: 33.25%;
+    position: relative;
+    height: 0;
+}
+  
+.info-video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .info-wrapper > p {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .info-video {
+        height: 200px;
+    }
+}

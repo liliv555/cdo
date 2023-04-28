@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+
+.footer-element {
+    display: flex;
+    justify-content: center;
+}
+
+.footer * {
+    padding: 0 5px 0 5px;
+}
+
+.footer p {
+    font-size: large;
+}
+
+.footer p a {
+    color: #202020;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .footer p {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footer * {
+        padding: 0 2px 0 2px;
+    }
+}

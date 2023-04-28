@@ -1,0 +1,104 @@
+.course-card {
+    max-width: 400px !important;
+    background-size: cover;
+    margin: 1rem;
+    position: relative;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .course-card {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .course-card {
+        margin: 1rem 0rem;
+    }
+}
+
+.card-title {
+    background-color: #f7f6f5;
+    width: 50%;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    text-align:right;
+    border-radius: 0.3rem;
+}
+
+.course-card:hover {
+    opacity: 1;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.course-icon {
+    height: 25px;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.dominios-container {
+    width: 90% !important;
+}
+
+.dominios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+li > p {
+    margin-left: 1rem;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    width: 20%;
+    border-bottom: 1px solid #202020;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.course-header {
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 775px) {
+    .add-btn {
+        margin-bottom: 2rem;
+    }
+}
+
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 9px 11px;
+    border-radius: 50%;
+}
+
+.course-card > img {
+    width: inherit;
+    max-width: 400px;
+    filter: grayscale(0.4);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 4px;
+}
